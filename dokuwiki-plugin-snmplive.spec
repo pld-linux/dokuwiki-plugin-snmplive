@@ -1,4 +1,5 @@
 Summary:	Dokuwiki SNMPlive Plugin
+Summary(pl.UTF-8):	Wtyczka SNMPlive dla Dokuwiki
 Name:		dokuwiki-plugin-snmplive
 Version:	0.1
 Release:	0.1
@@ -14,12 +15,16 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_dokudir	/usr/share/dokuwiki
-%define		_plugindir	%{_dokudir}/lib/plugins/%{_plugin}
 %define		_plugin		snmplive
+%define		_plugindir	%{_dokudir}/lib/plugins/%{_plugin}
 
 %description
 It gets the actual SNMP values out of any by the server reachable
 device (e.g. servers, printers, temp. sensors).
+
+%description -l pl.UTF-8
+Ta wtyczka pobiera odpowiednie wartości SNMP z dowolnych urządzeń
+osiągalnych z serwera (np. serwerów, drukarek, czujników temperatury).
 
 %prep
 %setup -q -n %{_plugin}
