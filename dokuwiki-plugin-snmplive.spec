@@ -1,5 +1,5 @@
-Summary:	Dokuwiki SNMPlive Plugin
-Summary(pl.UTF-8):	Wtyczka SNMPlive dla Dokuwiki
+Summary:	DokuWiki SNMPlive Plugin
+Summary(pl.UTF-8):	Wtyczka SNMPlive dla DokuWiki
 Name:		dokuwiki-plugin-snmplive
 Version:	0.1
 Release:	0.1
